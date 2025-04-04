@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+    <title>Pig Game</title>
+</head>
+<body>
+    <h1>
+        Pig Dice Game
+    </h1>
+
+    <div id = "game">
+        <label for ="playerName">Eneter Your Name:</label>
+        <input type="text" id="playerName">
+        <button id="startGame">Start Game</button>
+
+
+        <p id="displayPlayer"></p>
+        <p>Total points: <span id="totalScore">0</span></p>
+        <p>Round points: <span id="roundScore">0</span></p>
+        <p>Number of rounds: <span id="rounds">0</span></p>
+        <p>Dice number: <span id="diceRoll">-</span></p>
+
+        <button id="rollDice">Roll the dice</button>
+        <button id="holdScore">Freeze points</button>
+
+        <p id="message"></p>
+    </div>
+    
+</body>
+</html>
