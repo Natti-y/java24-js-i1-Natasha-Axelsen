@@ -7,7 +7,7 @@ body {
     max-width: 450px;
     margin: auto;
     padding: 20px;
-    border: 1px solid plum;
+    border: 1px solid #00A8E8;
     border-radius: 10px;
     background-color: skyblue;
 }
@@ -15,5 +15,19 @@ body {
 button{
     margin: 5px;
     padding: 10px;
-    background-color: plum;
+    background-color: #00A8E8;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 9px #0B4F6C;
+}
+
+button:hover {background-color: #007EA7}
+
+button:active {
+    background-color: #003459;
+    box-shadow: 0 5px #000500;
+    transform: translateY(4px);
 }
