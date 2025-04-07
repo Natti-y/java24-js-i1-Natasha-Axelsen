@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/main.js" defer></script>
     <title>Pig Game</title>
 </head>
 <body>
@@ -14,7 +13,7 @@
     </h1>
 
     <div id = "game">
-        <label for ="playerName">Enter Your Name:</label>
+        <label for ="playerName">Enter Your Name to Start! </label>
         <input type="text" id="playerName">
         <button id="startGame">Start Game</button>
 
@@ -25,11 +24,13 @@
         <p>Number of rounds: <span id="rounds">0</span></p>
         <p>Dice number: <span id="diceRoll">-</span></p>
 
+        <button id="restartGame" style="display: none;">Restart Game</button>
         <button id="rollDice">Roll the dice</button>
         <button id="holdScore">Freeze points</button>
 
         <p id="message"></p>
     </div>
-    
+    <script src="./js/main.js" defer></script>
+
 </body>
 </html>
